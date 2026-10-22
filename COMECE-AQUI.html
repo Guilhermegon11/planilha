@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="pt-BR"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Como usar o Controle Jurídico</title>
+<style>
+:root{font-family:Segoe UI,Arial,sans-serif;color:#17243b;background:#f4f6fa;line-height:1.6}
+*{box-sizing:border-box}body{margin:0;padding:32px 18px}main{max-width:960px;margin:auto;background:#fff;padding:38px;border-radius:16px;border:1px solid #d8e0eb}
+h1{font-size:32px;line-height:1.2;margin:0 0 16px}h2{font-size:20px;margin:0 0 10px}p{margin:8px 0 16px}.intro{font-size:19px;color:#415570}.start{background:#edf3fc;padding:22px;border-radius:10px;margin:28px 0}.grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}.card{border:1px solid #d8e0eb;border-radius:10px;padding:22px}.card p:last-child{margin-bottom:0}strong{color:#213653}code{background:#e8eef6;padding:3px 7px;border-radius:4px;font-size:15px}.note{border-left:4px solid #315ea8;padding-left:18px;margin-top:28px}li{margin-bottom:9px}.footer{font-size:14px;color:#54657c;margin-top:28px}@media(max-width:650px){main{padding:24px}.grid{grid-template-columns:1fr}h1{font-size:27px}}@media print{body{background:#fff;padding:0}main{border:0;padding:0}.card{break-inside:avoid}}
+</style>
+<main>
+<h1>Controle jurídico</h1>
+<p class="intro">Cadastre e acompanhe os processos pela janela do controle. A planilha guarda os dados e continua disponível para consulta.</p>
+<section class="start"><h2>Instale a atualização</h2><ol>
+<li>Salve seu trabalho e feche a janela do controle.</li>
+<li>Abra o ZIP da atualização e entre na pasta <strong>Controle_Juridico</strong>.</li>
+<li>Copie todos os arquivos para a pasta <strong>Controle_Juridico</strong> que você já usa. Quando o Windows perguntar, escolha <strong>Substituir os arquivos</strong>.</li>
+<li>Abra <strong>ABRIR-CONTROLE.cmd</strong>.</li>
+</ol><p>Este pacote atualiza o programa. Sua planilha continua na pasta original, com os dados que você já preencheu.</p><p>Use Windows com o Excel instalado. O cadastro manual funciona sem chave de IA e sem internet.</p></section>
+<section class="note"><h2>Conecte sua planilha</h2><p>O controle procura <strong>Controle_Juridico_IA.xlsx</strong> na mesma pasta. Se você usa outro nome ou outro local, clique em <strong>Escolher planilha</strong> e selecione sua cópia atual.</p><p>Quando a conexão estiver pronta, o painel mostra seus processos e os indicadores. Se a lista estiver vazia por causa de uma busca, limpe a busca e confira o filtro.</p></section>
+<div class="grid">
+<section class="card"><h2>Cadastrar um processo</h2><p>Clique em <strong>Novo processo</strong>, preencha os campos principais e salve. Os demais detalhes podem ser completados depois.</p><p>O número completo identifica o registro. Depois do cadastro, ele fica bloqueado no formulário para manter o vínculo com valores e histórico.</p></section>
+<section class="card"><h2>Encontrar e acompanhar</h2><p>Os cartões no topo mostram o total de processos, os que estão em acompanhamento, os críticos e os que precisam de atualização. Clique em um cartão para filtrar a lista.</p><p>Use a busca pelo número, nome de uma parte, empresa ou escritório. Selecione um registro para ver o resumo e o histórico. Os botões <strong>Editar cadastro</strong>, <strong>Valores</strong> e <strong>Registrar andamento</strong> ficam junto dos dados do processo selecionado.</p></section>
+<section class="card"><h2>Registrar um andamento</h2><p>Selecione o processo e clique em <strong>Registrar andamento</strong>. Informe a data do fato, o que aconteceu e a fonte.</p><p>Cada registro é acrescentado ao histórico. A data de recebimento é preenchida pelo controle.</p></section>
+<section class="card"><h2>Informar valores</h2><p>Selecione o processo e abra <strong>Valores</strong>. Preencha os valores conhecidos, confira a fonte e salve.</p><p>Campo vazio significa informação ainda não recebida. Zero significa valor conhecido igual a zero.</p></section>
+<section class="card"><h2>Atualizar com IA</h2><p>Abra <strong>Atualizar com IA</strong>, cole o texto recebido e informe a fonte. Você também pode importar um arquivo TXT, CSV ou XLSX com valores.</p><p>Clique em <strong>Analisar texto</strong>, confira cada proposta, marque as que deseja salvar e clique em <strong>Salvar selecionados</strong>. A IA só grava depois da sua aprovação.</p><p>A primeira análise pede a chave Groq. Ela fica protegida no seu usuário do Windows, fora da planilha. A análise envia o texto e o contexto que você escolheu.</p></section>
+<section class="card"><h2>Cadastrar nomes</h2><p>Em <strong>Opções</strong>, abra <strong>Cadastros auxiliares</strong> para acrescentar escritórios, empresas, consórcios e temas às listas dos formulários.</p><p>As opções de planilha, chave da IA e backups também ficam nesse menu.</p></section>
+</div>
+<section class="note"><h2>Ao abrir no Windows</h2><p>O iniciador libera a marca de download dos quatro scripts deste pacote antes de abrir a janela. Essa preparação fica limitada aos arquivos do controle.</p><p>Se uma regra da empresa exigir assinatura digital ou continuar bloqueando, solicite a liberação à TI. O iniciador mantém a política permanente do Windows.</p></section>
+<section class="note"><h2>Se o Excel estiver ocupado</h2><p>Termine a edição da célula e feche qualquer caixa de diálogo do Excel. Depois, tente conectar novamente pelo painel. Se houver uma mensagem de erro, ela indicará o próximo passo.</p></section>
+<section class="note"><h2>Se você já atualizou outra cópia</h2><p>Em <strong>Opções</strong>, use <strong>Escolher planilha</strong> para conectar sua cópia mais recente do mesmo modelo. Assim você mantém as alterações que já fez.</p><p>Antes de gravar alterações, o controle cria um backup. Use <strong>Abrir backups</strong> para encontrar essas cópias.</p></section>
+<p class="footer">A IA organiza os textos fornecidos. Ela não consulta tribunais automaticamente. O cadastro e o histórico continuam na planilha Excel.</p>
+</main></html>
